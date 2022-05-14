@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /* font-family: Helvetica, sans-serif, arial; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    min-width: 320px;
+    background: url('https://i.scdn.co/image/ab6761610000e5eb8ee9a6f54dcbd4bc95126b14');
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header--capa-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.30);
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    text-transform: uppercase;
+    
+    
+    
+    
+}
+.capa-container{
+    margin-left: 10px;
+    line-height: 2rem;
+}
+/* .capa-container .capa-container__photo{
+    width: 125px;
+    height: 125px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-image: url('https://i.scdn.co/image/ab6761610000e5eb8ee9a6f54dcbd4bc95126b14');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 15px #201e1c;
+} */
+.capa-container h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+   
+}
+
+.capa-container h2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: none;
+    color: #f3f3f3 ;
+}
+
+.main{
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(0deg, #121212 16.5%, #42442f 100% );
+    color: white;
+    min-width: 320px;
+    position: relative;
+    padding: 10px;
+}
+
+.section--about h3{
+    font-size: 1.6rem;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    width: 90%;
+    margin:0 auto;
+    margin-top: 15px;
+}
+
+.section--skillSet h3{
+    margin-top: 20px;
+    font-size: 1.6rem;
+
+}
+
+.section--skillSet{
+    width: 100%;
+}
+
+
+.skill-Set{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.skill-Set--container{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin-top: 5px;
+    display: flex;
+}
+.skill-Set--container .icon{
+    display: flex;
+    width: 20px;
+    align-items: center;
+}
+
+
+.skill-Set--container .img{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-Set--container .container--title h4{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+}
+.skill-Set--container .html{
+    background-image: url(assets/img/html.svg);
+}
+
+.skill-Set--container .css{
+    background-image: url(assets/img/css3.svg);
+}
+
+.skill-Set--container .js{
+    background-image: url(assets/img/javascript.svg);
+}
+
