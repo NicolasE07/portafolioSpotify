@@ -146,4 +146,48 @@ html {
 .skill-Set--container .js{
     background-image: url(assets/img/javascript.svg);
 }
+.main--section-portafolio{
+    width: 100%;
+    height: auto;
+}
+
+.main--section-portafolio h3{
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.section-portafolio__container{
+    width: 90%;
+    height: auto;
+    display: flex;
+}
+
+.proyect_container{
+    width: 125px;
+    min-height: 125px;
+    margin: 15px 20px 0px 0px;
+
+}
+
+.proyect_container img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    
+}
+
+.proyect_container p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.2rem;
+}
+
+.proyect_container--p__color{
+    font-size: 1rem;
+    color: #a7a7a7;
+    
+}
+
 
